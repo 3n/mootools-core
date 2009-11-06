@@ -3,7 +3,7 @@
 		{
 			title: "Element.offsets",
 			description: "Tests the offset logic for elements.",
-			verify: "When you scroll does the number (offset value) stay the same?",
+			verify: "When you scroll do the numbers (offset value) stay the same?",
 			before: function(){
         window.addEvent('domready', function(){
           var set_internals = function(){
