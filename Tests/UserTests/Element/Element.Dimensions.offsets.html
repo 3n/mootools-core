@@ -4,9 +4,22 @@
   #static   { position: static; }
   #absolute { position: absolute; }
   .position-type { background:gray; color:black; padding:10px; width:30%; }
+
+	#internal-scroll { position:absolute; right:50px; top:100; width:150px; height:150px; overflow:scroll; }
+	#internal-scroll div { width:70%; background:gray; color:black; padding:10px; margin-bottom:10px; }
 </style>
 
 <div id="wrapper">
+	<div id="internal-scroll">
+		<div>STATIC <span class="val"></span></div>
+		<div>STATIC <span class="val"></span></div>
+		<div>STATIC <span class="val"></span></div>
+		<div>STATIC <span class="val"></span></div>
+		<div>STATIC <span class="val"></span></div>
+		<div>STATIC <span class="val"></span></div>
+		<div>STATIC <span class="val"></span></div>
+	</div>
+	
   <div class="position-type" id="fixed">FIXED <span class="val"></span></div>
   <div class="position-type" id="static">STATIC <span class="val"></span></div>
   <div class="position-type" id="absolute">ABSOLUTE <span class="val"></span></div>
